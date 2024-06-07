@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum ShapeStyle {
+public enum ShapeStyle {
     case circle
     case roundedRectangle(cornerRadius: CGFloat)
 }
