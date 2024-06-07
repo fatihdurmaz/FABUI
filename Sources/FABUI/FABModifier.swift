@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-struct FABModifier: ViewModifier {
+public struct FABModifier: ViewModifier {
     let icon: Image
     let color: Color
     let iconColor: Color?
@@ -22,7 +22,7 @@ struct FABModifier: ViewModifier {
         self.radius = radius
     }
     
-    func body(content: Content) -> some View {
+    public func body(content: Content) -> some View {
         ZStack {
             content
             VStack {
