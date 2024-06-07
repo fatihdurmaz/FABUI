@@ -12,6 +12,5 @@ FABUI, SwiftUI kullanarak özelleştirilebilir Floating Action Button (FAB) olu�
 FABUI'yi Swift Package Manager kullanarak projenize ekleyebilirsiniz. Bunun için `Package.swift` dosyanıza aşağıdaki satırı ekleyin:
 
 ```swift
-dependencies: [
-    .package(url: "https://github.com/fatihdurmaz/FABUI.git", from: "1.0.0")
-]
+https://github.com/fatihdurmaz/FABUI
+```
