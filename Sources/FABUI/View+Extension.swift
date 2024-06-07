@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension View {
+public extension View {
     func fab(
         icon: Image,
         iconColor: Color? = .white,
