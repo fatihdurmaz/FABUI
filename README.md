@@ -5,12 +5,46 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/iOS-17-green.svg)
 
-FABUI, SwiftUI kullanarak özelleştirilebilir Floating Action Button (FAB) oluşturmayı sağlayan bir Swift paketidir.
+FABUI is a Swift package that allows the creation of customizable Floating Action Buttons (FAB) using SwiftUI.
 
-### Swift Package Manager
+##  Features
+- 
+- Simple and intuitive SwiftUI-based UI for a smooth user experience.
+- Easily customize the UI and integration into your existing SwiftUI projects.
+  
+## Requirements
 
-FABUI'yi Swift Package Manager kullanarak projenize ekleyebilirsiniz. Bunun için `Package.swift` dosyanıza aşağıdaki satırı ekleyin:
+- Swift 5.5 or later
+- iOS 17.0 or later
 
-```swift
+## Installation
+
+You can include this package in your project via Swift Package Manager. In your Xcode project, go to "File" -> "Swift Packages" -> "Add Package Dependency" and add the following URL:
+
+```url
 https://github.com/fatihdurmaz/FABUI
 ```
+
+## Usage/Examples
+
+```swift
+
+import SwiftUI
+import FABUI
+
+struct ContentView: View {
+    var body: some View {
+        NavigationStack {
+            VStack {
+                Text("Hello, SwiftUI!")
+            }
+            .fab(icon: Image(systemName: "plus"), color: .orange, action: {
+                print("Hello, SwiftUI!")
+            })
+            .navigationTitle("FABUI")
+        }
+    }
+}
+
+```
+
