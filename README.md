@@ -57,3 +57,5 @@ struct ContentView: View {
 
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
+## Contributing
+If you would like to contribute, please submit a pull request or report an issue. Thank you for your contributions!
