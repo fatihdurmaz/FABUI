@@ -7,10 +7,17 @@
 
 FABUI is a Swift package that allows the creation of customizable Floating Action Buttons (FAB) using SwiftUI.
 
-##  Features
-- 
-- Simple and intuitive SwiftUI-based UI for a smooth user experience.
-- Easily customize the UI and integration into your existing SwiftUI projects.
+## Customization
+You can customize the FABModifier with various parameters:
+
+icon: The icon displayed on the FAB.
+color: The background color of the FAB.
+iconColor: (Optional) The color of the icon. Default is white.
+shapeStyle: (Optional) The shape of the FAB. Default is circle. You can use .roundedRectangle(cornerRadius) to specify a rounded rectangle with a corner radius.
+radius: (Optional) The shadow radius of the FAB. Default is 1.
+size: (Optional) The size of the FAB. Default is 56.
+margin: (Optional) The margin from the screen edges. Default is 16.
+action: The action to perform when the FAB is tapped.
   
 ## Requirements
 
